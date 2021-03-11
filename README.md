@@ -9,6 +9,12 @@ BabaSSL provides the following major features:
   * QUIC API support
   * ...
 
+# Compile
+ * for linux_x86_64
+git clone https://github.com/heshouyong/BabaSSL.git
+./Configure --prefix=$(pwd)/install no-asm shared linux-x86_64
+make && make install
+
 # Reporting Security Bugs
 
 We use the following website for security bugs reporting:
