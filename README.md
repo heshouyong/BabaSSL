@@ -10,12 +10,21 @@ BabaSSL provides the following major features:
   * ...
 
 # Compile
- * for linux_x86_64
+ * for linux_x86_64  
+
 git clone https://github.com/heshouyong/BabaSSL.git  
 
 ./Configure --prefix=$(pwd)/install no-asm shared linux-x86_64  
 
 make && make install  
+
+ * for linux arm   
+
+./Configure --prefix=$(pwd)/install --cross-compile-prefix=arm-linux-gnueabihf- no-asm shared linux-armv4   
+
+ * for linux aarch64  
+
+./Configure --prefix=$(pwd)/install --cross-compile-prefix=aarch64-linux-gnu- no-asm shared linux-aarch64  
 
 # Reporting Security Bugs
 
