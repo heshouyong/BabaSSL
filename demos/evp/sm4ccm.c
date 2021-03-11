@@ -15,7 +15,7 @@
 #include <openssl/bio.h>
 #include <openssl/evp.h>
 
-/* SM4-CCM test data from NIST public test vectors */
+/* SM4-CCM test data from <基于LTE的车联网无线通信技术 安全证书管理系统技术要求> */
 
 static const unsigned char ccm_key[] = {
     0xca, 0x44, 0xef, 0x8d, 0xf3, 0x25, 0xab, 0xb3, 
